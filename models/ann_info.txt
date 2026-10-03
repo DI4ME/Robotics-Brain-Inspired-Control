@@ -1,0 +1,16 @@
+Brain-Inspired Robotic Control System
+ANN Model Information
+==================================================
+
+Dataset: HAPT
+Input features: 561
+Output classes: 12
+
+Architecture:
+561 -> 128 -> 64 -> 12
+
+Hidden activation: ReLU
+Optimizer: Adam
+Loss: Cross Entropy
+Test accuracy: 92.76%
+Training iterations: 27
